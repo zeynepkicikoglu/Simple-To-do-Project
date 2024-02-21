@@ -32,7 +32,7 @@ actor {
   };
 
   //loop -> if, when, while, break
-// soru isareti ister string ister String olsun query icin cevap dondur demek
+// soru isareti ister sayı ister String olsun query icin cevap dondur demek
   public query func lookup(name:Name) : async ? Entry {
     phoneBook.get(name);
   };
